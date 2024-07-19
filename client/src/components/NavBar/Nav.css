@@ -1,0 +1,13 @@
+.all_nav {
+  margin-top: 2rem;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  padding: 0 20px; /* Add padding to create space on the sides */
+}
+
+.nav_img_logo {
+  width: 55px;
+}

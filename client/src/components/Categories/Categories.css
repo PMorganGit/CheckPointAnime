@@ -1,0 +1,141 @@
+.all_categories {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: url("/public/assets/images/Background/chihiro-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.categorie_title{
+  display: flex;
+  justify-content: center;
+}
+
+.categorie_title h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 5rem 0 5rem 0;
+  background-color: rgba(0, 0, 0, 0.342);
+  color: white;
+  border: solid 2px white;
+  padding: 1.5rem;
+  border-radius: 5rem;
+
+
+}
+
+.card_categorie_container {
+  display: flex;
+  justify-content: center;
+}
+
+.card_categorie {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.card_categorie li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card_categorie li {
+  list-style-type: none;
+  flex: 0 0 calc(25% - 1rem);
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.card_categorie li h3 {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-align: left;
+  height: 10rem;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 2rem;
+  color: white;
+  position: relative;
+  z-index: 3;
+}
+
+.card_categorie li.h3-global,
+.card_categorie li.h3-sport,
+.card_categorie li.h3-isekai,
+.card_categorie li.h3-comedy,
+.card_categorie li.h3-drama,
+.card_categorie li.h3-fantasy,
+.card_categorie li.h3-film,
+.card_categorie li.h3-romance,
+.card_categorie li.h3-sci-fi,
+.card_categorie li.h3-slice-of-life {
+  background-color: rgba(0, 0, 0, 0.342);
+  border: solid 2px white;
+  border-radius: 2rem;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 160px 150px;
+  z-index: 1;
+}
+
+.card_categorie li.h3-global:hover,
+.card_categorie li.h3-sport:hover,
+.card_categorie li.h3-isekai:hover,
+.card_categorie li.h3-comedy:hover,
+.card_categorie li.h3-drama:hover,
+.card_categorie li.h3-fantasy:hover,
+.card_categorie li.h3-film:hover,
+.card_categorie li.h3-romance:hover,
+.card_categorie li.h3-sci-fi:hover,
+.card_categorie li.h3-slice-of-life:hover {
+  background-size: 190px 180px;
+  transition: background-size 0.5s;
+  z-index: 2;
+}
+
+.card_categorie li.h3-global {
+  background-image: url("/public/assets/images/categoriePic/Gon.png");
+}
+
+.card_categorie li.h3-sport {
+  background-image: url("/public/assets/images/categoriePic/hinata.png");
+}
+
+.card_categorie li.h3-isekai {
+  background-image: url("/public/assets/images/categoriePic/subaru.png");
+}
+
+.card_categorie li.h3-comedy {
+  background-image: url("/public/assets/images/categoriePic/kazuma.png");
+}
+
+.card_categorie li.h3-drama {
+  background-image: url("/public/assets/images/categoriePic/nagisa.png");
+}
+
+.card_categorie li.h3-fantasy {
+  background-image: url("/public/assets/images/categoriePic/Frieren.png");
+}
+
+.card_categorie li.h3-film {
+  background-image: url("/public/assets/images/categoriePic/ishida.png");
+}
+
+.card_categorie li.h3-romance {
+  background-image: url("/public/assets/images/categoriePic/kaori.png");
+}
+
+.card_categorie li.h3-sci-fi {
+  background-image: url("/public/assets/images/categoriePic/lelouch.png");
+}
+
+.card_categorie li.h3-slice-of-life {
+  background-image: url("/public/assets/images/categoriePic/Horimiya.png");
+}

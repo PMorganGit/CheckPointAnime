@@ -1,0 +1,79 @@
+.all_details_info {
+  padding-top: 10rem;
+}
+
+.details_title h1 {
+  text-align: center;
+  background-color: rgba(207, 207, 207, 0.671);
+  border: solid 2px black;
+  padding: 2rem;
+  border-radius: 5rem;
+  width: fit-content;
+  margin: auto;
+}
+
+.image_info_details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5rem;
+  
+}
+
+.details_title_h3 {
+  text-align: center;
+  background-color: rgba(207, 207, 207, 0.671);
+  border: solid 2px black;
+  padding: 1.5rem;
+  border-radius: 5rem;
+  width: 10rem;
+  margin: auto;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.details_synopsis p {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  text-align: left;
+  justify-content: center;
+  font-size: 1.5rem;
+  background-color: rgba(207, 207, 207, 0.671);
+  border: solid 2px black;
+  padding: 1.5rem;
+  border-radius: 5rem;
+  
+}
+
+.details_synopsis{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.details_picture{
+  background-color: rgba(0, 0, 0, 0.411);
+  padding: 5rem;
+  border-radius: 50%;
+  
+}
+
+.details_picture img{
+  width: 500px;
+  height: 450px;
+
+
+}
+
+.details_info_p{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: rgba(207, 207, 207, 0.671);
+  border: solid 2px black;
+  padding: 3rem;
+  border-radius: 5rem;
+  text-align: center;
+}

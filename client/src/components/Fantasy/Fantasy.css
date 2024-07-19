@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.all_all_fantasy_category {
+  background-image: url("/public/assets/images/Background/frieren_back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 10rem;
+}
+
+.all_all_global_category {
+  background-image: url("/public/assets/images/Background/GreedIsland-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 10rem;
+}
+
+.all_all_drama_category {
+  background-image: url("/public\assets\images\Background\clannad-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 10rem;
+}
+
+.all_all_romance_category {
+  background-image: url("/public\assets\images\Background\your-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 10rem;
+}
+
+.all_all_sport_category {
+  background-image: url("/public\assets\images\Background\haikyu-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 10rem;
+}
+
+.all_all_comedy_category {
+  background-image: url("/public\assets\images\Background\konosuba-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 10rem;
+}
+
+.all_all_isekai_category {
+  background-image: url("/public\assets\images\Background\rezero-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 10rem;
+}
+
+.all_all_scifi_category {
+  background-image: url("/public\assets\images\Background\code-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 10rem;
+}
+
+.all_all_slice_category {
+  background-image: url("/public\assets\images\Background\hori-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 10rem;
+}
+
+.all_all_film_category {
+  background-image: url("/public\assets\images\Background\koe-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 10rem;
+}
+
+.title_synopsis_container {
+  display: flex;
+  justify-content: center;
+}
+
+.title_synopsis_category {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title_synopsis_category h1 {
+  text-align: center;
+  background-color: rgba(207, 207, 207, 0.671);
+  border: solid 2px black;
+  padding: 1.5rem;
+  border-radius: 5rem;
+  width: 10rem;
+  margin: auto;
+}
+
+.title_synopsis_category p {
+  margin: auto;
+  margin-top: 5rem;
+  text-align: left;
+  font-size: 1.5rem;
+  width: 50%;
+  background-color: rgba(207, 207, 207, 0.671);
+  border: solid 2px black;
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
+
+.all_anime_info {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.info_picture_anime {
+  background-color: rgba(240, 255, 255, 0.39);
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 5rem;
+  border: solid 2px black;
+}
+
+.info_picture_anime img {
+  width: 200px;
+  height: 180px;
+  background-color: rgba(0, 0, 0, 0.411);
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.info_picture_anime img:hover {
+  background-color: rgba(0, 0, 0, 0.63);
+}
+
+.first_category {
+  margin-top: 15rem;
+  font-weight: 700;
+  height: 20rem;
+}
+
+.second_category {
+  margin-left: 20rem;
+  margin-right: 20rem;
+  font-weight: 700;
+  height: 20rem;
+}
+
+.third_category {
+  margin-top: 15rem;
+  font-weight: 700;
+  height: 20rem;
+}
+
+.all_all_scifi_category .title_synopsis_container .title_synopsis_category h1 {
+  width: 20rem;
+}
+
+.all_all_slice_category .title_synopsis_container .title_synopsis_category h1 {
+  width: 20rem;
+}

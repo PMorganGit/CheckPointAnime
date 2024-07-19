@@ -1,0 +1,73 @@
+/* BurgerMenu.css */
+
+.burger-menu-container {
+  position: relative;
+  height: 100%; /* Remplit toute la hauteur de son parent */
+
+}
+
+.burger-menu {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  z-index: 1000;
+  
+}
+
+.burger-menu-line {
+  width: 100%;
+  height: 3px;
+  background-color: #000000;
+  transition: all 0.3s ease;
+}
+
+.burger-menu.open .burger-menu-line:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.burger-menu.open .burger-menu-line:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu.open .burger-menu-line:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.menu-items {
+  position: fixed;
+  top: 0;
+  right: 0; /* Ajusté à 'right' pour ouvrir vers la droite */
+  height: 100%;
+  width: 70%; /* Ajuster la largeur selon les besoins */
+  max-width: 300px; /* Limiter la largeur du menu pour qu'il ne dépasse pas trop */
+  background-color: #ffffff59;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateX(100%); /* Modifier la direction d'ouverture */
+  transition: transform 0.3s ease;
+  z-index: 999;
+  
+}
+
+.menu-items.open {
+  transform: translateX(0); /* Modifier la direction d'ouverture */
+}
+
+.menu-items a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+.menu-items {
+  padding-top: 5rem;
+}
+
+.menu-items a:hover {
+  background-color: #f0f0f0;
+}
